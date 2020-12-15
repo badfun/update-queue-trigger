@@ -1,0 +1,27 @@
+{
+  "name": "update-queue-trigger",
+  "version": "1.0.0",
+  "description": "Utilitiy lambda function to enable or disable all queues in an account.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badfun/update-queue-trigger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badfun/update-queue-trigger/issues"
+  },
+  "homepage": "https://github.com/badfun/update-queue-trigger#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.66",
+    "@types/node": "^14.14.14",
+    "aws-sdk": "^2.811.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
